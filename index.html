@@ -16,17 +16,21 @@
         }
 
         function openTravelAgancyMap() {
-            window.open('www.chakraviaggi.it', '_self');
+            window.open('http://www.chakraviaggi.it', '_blank');
         }
     </script>
 </head>
 <body>
     <div class="center" style="color: #ff5252;">
         <h2 style="text-align: center">Info utili</h2>
+        <h5 style="text-align: center">Il matrimonio si terrà il 5 ottobre 2019, di seguito tutti i dettagli</h5>
     </div>
 
-    <div class="center" style="color: #ff5252;">
-        <h3 class="text-centered">Chiesa</h3>
+    <div class="center bordered" style="color: #ff5252;">
+        <h3 class="text-centered">
+            <i class="material-icons">account_balance</i>
+            Chiesa
+        </h3>
         <h4 class="text-centered">
             <span>Brugherio - Chiesa San Bartolomeo ore 15:30</span>
             <br>
@@ -36,8 +40,11 @@
         </h4>
     </div>
 
-    <div class="center" style="color: #306cb9">
-        <h3 class="text-centered">Ricevimento</h3>
+    <div class="center bordered" style="color: #306cb9">
+        <h3 class="text-centered">
+            <i class="material-icons">local_bar</i>
+            Ricevimento
+        </h3>
         <h4 class="text-centered">
             <span>Tenuta Colle Pjajo ore 18:00</span>
             <br>
@@ -47,13 +54,16 @@
         </h4>
     </div>
 
-    <div class="center" style="color: #ff5252;">
-        <h3 class="text-centered">Agenzia viaggi</h3>
+    <div class="center bordered" style="color: #ff5252;">
+        <h3 class="text-centered">
+            <i class="material-icons">flight_takeoff</i>
+            Agenzia viaggi
+        </h3>
         <h4 class="text-centered">
             <span>Chakra viaggi</span>
             <br>
             <button style="margin: 10px" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="openTravelAgancyMap()">
-                Sito Web
+                Informazioni
             </button>
         </h4>
     </div>
@@ -74,6 +84,11 @@
 
     .text-centered {
         text-align: center
+    }
+
+    .bordered {
+        margin-top: 20px;
+        border: dotted;
     }
 </style>
 </html>
