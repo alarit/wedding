@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://www.magnetstreet.com/stores/html/weddings/images/wallpapers/MagnetStreet-Kissing-Couple_1920x1200.jpg");
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-position: top;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    body {
+        background-position: right;
+    }
+}
+
+.header-button {
+    width: 33%;
+}
+
+.font-cursive {
+    font-family: 'Harrington',serif;
+}
+
+.center {
+    width: 50%;
+    padding: 10px;
+    margin: auto auto 20px;
+}
+
+.text-centered {
+    text-align: center
+}

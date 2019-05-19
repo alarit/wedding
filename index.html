@@ -6,34 +6,48 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script>
-        function openMap() {
-            window.open('https://goo.gl/maps/szyJkir5eBcTzL3EA', '_blank');
-        }
-
-        function openRestaurantSite() {
-            window.open('https://www.tenutacollepiajo.it/', '_blank');
-        }
-
-        function openTravelAgancyMap() {
-            window.open('http://www.chakraviaggi.it', '_blank');
-        }
-    </script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<div class="background">
 
-    <div class="center" style="color: #306cb9;">
-        <h2 style="text-align: center">Info utili</h2>
-        <h5 style="text-align: center">Il matrimonio si terrà il 5 ottobre 2019, di seguito tutti i dettagli</h5>
+<div style="text-align: center">
+    <span class="header-button">
+    <button style="margin: 10px"
+            class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-button&#45;&#45;colored"
+            onclick="showChurch()">
+        Chiesa
+    </button>
+    </span>
+    <span class="header-button">
+        <button style="margin: 10px"
+                class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-button&#45;&#45;colored"
+                onclick="showRestaurant()">
+            Ristoro
+        </button>
+    </span>
+
+    <span class="header-button">
+        <button style="margin: 10px"
+                class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-button&#45;&#45;colored"
+                onclick="showAgency()">
+        Agenzia viaggi
+        </button>
+    </span>
+</div>
+
+<div>
+    <div class="center" style="width: 100%; clear:both; color: #306cb9;">
+        <h2 style="text-align: center;" class="font-cursive">Ale & Cinzia Wedding day</h2>
+        <h5 style="text-align: center;" class="font-cursive">Il matrimonio si terrà il 5 ottobre 2019</h5>
     </div>
 
-    <div class="center bordered" style="color: #ff5252;">
-        <h3 class="text-centered">
+    <div id="church" class="center bordered" style="color: #ff5252; display: none">
+        <h3 class="text-centered mdl-layout-title font-cursive">
             <i class="material-icons">account_balance</i>
             Chiesa
         </h3>
-        <h4 class="text-centered">
+        <h4 class="text-centered mdl-layout-title font-cursive">
             <span>Brugherio - Chiesa San Bartolomeo ore 15:30</span>
             <br>
             <button style="margin: 10px"
@@ -44,27 +58,28 @@
         </h4>
     </div>
 
-    <div class="center bordered" style="color: #306cb9">
-        <h3 class="text-centered">
+    <div id="restaurant" class="center bordered" style="color: #306cb9; display: none">
+        <h3 class="text-centered font-cursive">
             <i class="material-icons">local_bar</i>
             Ricevimento
         </h3>
-        <h4 class="text-centered">
+        <h4 class="text-centered font-cursive">
             <span>Tenuta Colle Pjajo ore 18:00</span>
             <br>
-            <button style="margin: 10px" class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-button&#45;&#45;colored"
+            <button style="margin: 10px"
+                    class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-button&#45;&#45;colored"
                     onclick="openRestaurantSite()">
                 Sito Web
             </button>
         </h4>
     </div>
 
-    <div class="center bordered" style="color: #ff5252;">
-        <h3 class="text-centered">
+    <div id="agency" class="center bordered" style="color: #ff5252; display: none">
+        <h3 class="text-centered font-cursive">
             <i class="material-icons">flight_takeoff</i>
             Agenzia viaggi
         </h3>
-        <h4 class="text-centered">
+        <h4 class="text-centered font-cursive">
             <span>Chakra viaggi</span>
             <br>
             <button style="margin: 10px"
@@ -74,43 +89,7 @@
             </button>
         </h4>
     </div>
-
-    <div class="center bordered" style="color: #306cb9;">
-        <h6 class="text-centered">
-            Powered by Alar
-        </h6>
-    </div>
 </div>
 </body>
 
-<style>
-    div.background {
-        background-image: url("https://www.magnetstreet.com/stores/html/weddings/images/wallpapers/MagnetStreet-Kissing-Couple_1920x1200.jpg");
-        background-repeat: no-repeat;
-    }
-
-    @media only screen and (min-width: 1200px) {
-        div.background {
-            background-position: top;
-        }
-    }
-
-
-    @media only screen and (max-width: 1199px) {
-        div.background {
-            background-position: right;
-        }
-    }
-
-
-    .center {
-        width: 50%;
-        padding: 10px;
-        margin: auto auto 20px;
-    }
-
-    .text-centered {
-        text-align: center
-    }
-</style>
 </html>
