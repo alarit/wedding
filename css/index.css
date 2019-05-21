@@ -16,7 +16,7 @@ body {
     border-radius: 5px;
     min-width: 100px;
     min-height: 40px;
-    color: white;
+    color: #454545;;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -24,7 +24,7 @@ body {
     margin: 20px 10px;
 }
 
-.button:hover {
+.button:hover, .button:focus {
     background: rgb(114, 156, 219);
 }
 
@@ -34,7 +34,7 @@ body {
 
 .center {
     margin: auto;
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
