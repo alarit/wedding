@@ -3,13 +3,29 @@
     src: url(../font/ArchitectsDaughter.ttf) format("truetype");
 }
 
-.mdl-button--raised.mdl-button--colored {
-    background: rgb(167, 188, 219) !important;
+.button {
+    background: rgb(167, 188, 219);
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    min-width: 100px;
+    min-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin: 20px 10px;
+}
+
+.button:hover {
+    background: rgb(114, 156, 219);
 }
 
 body {
     background-image: url("../img/background.png");
     background-repeat: repeat;
+    font-size: 2em;
 }
 
 .header-button {
@@ -24,10 +40,12 @@ body {
     font-family: 'ArchitectsDaughter', cursive;
 }
 
-.center {
-    width: 50%;
-    padding: 10px;
-    margin: auto auto 20px;
+@media only screen and (max-width: 600px) {
+    .center {
+        width: 50%;
+        padding: 10px;
+        margin: auto auto 20px;
+    }
 }
 
 .text-centered {
