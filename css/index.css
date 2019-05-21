@@ -3,6 +3,12 @@
     src: url(../font/ArchitectsDaughter.ttf) format("truetype");
 }
 
+body {
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    font-size: 26pt;
+}
+
 .button {
     background: rgb(167, 188, 219);
     padding: 10px 16px;
@@ -14,7 +20,7 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
-    font-size: 16pt;
+    font-size: 20pt;
     margin: 20px 10px;
 }
 
@@ -22,31 +28,19 @@
     background: rgb(114, 156, 219);
 }
 
-body {
-    background-image: url("../img/background.png");
-    background-repeat: repeat;
-    font-size: 26pt;
-}
-
-.header-button {
-    width: 33%;
-}
-
 .white-color {
     color: #ffffff;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .font-cursive {
     font-family: 'ArchitectsDaughter', cursive;
 }
-
-/*@media only screen and (max-width: 100px) {
-    .center {
-        width: 50%;
-        padding: 10px;
-        margin: auto auto 20px;
-    }
-}*/
 
 .text-centered {
     text-align: center

@@ -4,41 +4,34 @@
     <meta charset="UTF-8">
     <title>Alessandro & Cinzia <3</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">-->
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
 <div style="text-align: center">
-    <div class="center white-color">
+    <div class="white-color">
         <h2 style="text-align: center;" class="font-cursive">Ale & Cinzia wedding day</h2>
         <h3 style="text-align: center;" class="font-cursive">5 ottobre 2019</h3>
     </div>
 
-    <span class="header-button">
     <input type="button" class="button" onclick="showChurch()" value="Chiesa">
-    </span>
-    <span class="header-button">
-        <input type="button" class="button" onclick="showRestaurant()" value="Ricevimento">
-    </span>
-
-    <span class="header-button">
-        <input type="button" class="button" onclick="showAgency()" value="Agenzia viaggi">
-    </span>
+    <input type="button" class="button" onclick="showRestaurant()" value="Ricevimento">
+    <input type="button" class="button" onclick="showAgency()" value="Agenzia viaggi">
 </div>
 
 <div>
-    <div id="church" class="center bordered white-color" style="display: none">
+    <div id="church" class="bordered white-color" style="display: none">
         <h4 class="text-centered font-cursive">
             <i class="material-icons">account_balance</i>
             Chiesa
         </h4>
         <h5 class="text-centered mdl-layout-title font-cursive">
-            <span>Brugherio - Chiesa San Bartolomeo ore 15:30</span>
-            <br>
-            <input type="button" class="button" onclick="openMap()" value="Mappa">
+            Brugherio - Chiesa San Bartolomeo ore 15:30
         </h5>
+        <div class="center">
+            <input type="button" class="text-centered button" onclick="openMap()" value="Mappa">
+        </div>
     </div>
 
     <div id="restaurant" class="center bordered white-color" style="display: none">
@@ -47,10 +40,11 @@
             Ricevimento
         </h4>
         <h5 class="text-centered font-cursive">
-            <span>Tenuta Colle Pjajo ore 18:00</span>
-            <br>
-            <input type="button" class="button" onclick="openRestaurantSite()" value="Sito Web">
+            Tenuta Colle Pjajo ore 18:00
         </h5>
+        <div class="center">
+            <input type="button" class="button" onclick="openRestaurantSite()" value="Sito Web">
+        </div>
     </div>
 
     <div id="agency" class="center bordered white-color" style="display: none">
@@ -58,17 +52,9 @@
             <i class="material-icons">flight_takeoff</i>
             Agenzia viaggi
         </h4>
-        <h5 class="text-centered font-cursive">
-            <span>Chakra viaggi</span>
-            <br>
-            <span>
-                CAUSALE: lista nozze arici
-            </span>
-            <br>
-            <span>
-                IBAN: IT 09 Z 02008 32880 000004518103
-            </span>
-        </h5>
+        <h5 class="text-centered font-cursive">Chakra viaggi</h5>
+        <h5 class="text-centered font-cursive">CAUSALE: lista nozze arici</h5>
+        <h5 class="text-centered font-cursive">IBAN: IT 09 Z 02008 32880 000004518103</h5>
     </div>
 
     <div class="center text-centered">
