@@ -26,6 +26,7 @@ body {
 
 .button:hover, .button:focus {
     background: rgb(114, 156, 219);
+    color: white;
 }
 
 .white-color {
