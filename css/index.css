@@ -14,7 +14,7 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
-    font-size: 0.6em;
+    font-size: 16pt;
     margin: 20px 10px;
 }
 
@@ -25,7 +25,7 @@
 body {
     background-image: url("../img/background.png");
     background-repeat: repeat;
-    font-size: 2em;
+    font-size: 26pt;
 }
 
 .header-button {
@@ -40,13 +40,13 @@ body {
     font-family: 'ArchitectsDaughter', cursive;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 100px) {
     .center {
         width: 50%;
         padding: 10px;
         margin: auto auto 20px;
     }
-}
+}*/
 
 .text-centered {
     text-align: center
