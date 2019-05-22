@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "ArchitectsDaughter";
-    src: url(../font/ArchitectsDaughter.ttf) format("truetype");
+    font-family: "EmilysCandy-Regular";
+    src: url(../font/EmilysCandy-Regular.ttf) format("truetype");
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 .font-cursive {
-    font-family: 'ArchitectsDaughter', cursive;
+    font-family: 'EmilysCandy-Regular', cursive;
 }
 
 .text-centered {
