@@ -6,10 +6,6 @@ function openRestaurantSite() {
     window.open('https://www.tenutacollepiajo.it/', '_blank');
 }
 
-function openTravelAgancyMap() {
-    window.open('http://www.chakraviaggi.it', '_blank');
-}
-
 function showChurch() {
     document.getElementById('church').style.display = 'block'
     document.getElementById('restaurant').style.display = 'none'

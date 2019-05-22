@@ -10,13 +10,13 @@ body {
 }
 
 .button {
-    background: rgb(167, 188, 219);
-    padding: 10px 16px;
+    background: #ff7771;
+    padding: 16px 24px;
     border: none;
     border-radius: 5px;
     min-width: 100px;
     min-height: 40px;
-    color: #454545;;
+    color: white;;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -25,12 +25,12 @@ body {
 }
 
 .button:hover, .button:focus {
-    background: rgb(114, 156, 219);
+    background: #ff201e;
     color: white;
 }
 
-.white-color {
-    color: #ffffff;
+.red-color {
+    color: #ff201e;
 }
 
 .center {
